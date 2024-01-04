@@ -1,0 +1,44 @@
+.close {
+  position: absolute;
+  inset-block-start: 2rem;
+  inset-inline-end: 2rem;
+  z-index: 2;
+}
+
+@media (max-width: 960px) {
+  .v-btn__content > .v-icon--start {
+    margin-inline-end: 0 !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .dialogMovie {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .img-movie-dialog {
+    display: none !important;
+  }
+}
+
+.title-wrap {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dialog {
+  position: absolute;
+  max-inline-size: 850px;
+  // inset-block-start: 20rem;
+}
+
+.movie-button {
+  position: absolute !important;
+  inset-block-start: 1rem;
+  inset-inline-end: 3rem;
+  z-index: 2;
+}

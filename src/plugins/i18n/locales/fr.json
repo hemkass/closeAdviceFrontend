@@ -1,0 +1,4 @@
+{
+  "tabs": { "movies": "Films", "series": "Series", "books": "Livres" },
+  "movies": { "addMovie": "ajouter un film" }
+}

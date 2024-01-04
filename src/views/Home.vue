@@ -1,7 +1,5 @@
-<template>
-  <HelloWorld />
-</template>
-
 <script lang="ts" setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+import TabItems from "@/components/Advice/TabItems.vue";
 </script>
+
+<template><TabItems /></template>
